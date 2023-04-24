@@ -8,17 +8,17 @@ if (A > B)
 {
     if (A > C)
     {
-        Console.WriteLine(A);
+        Console.WriteLine($"Максимальное число: {A}");
     }
 }
 else
     {
         if (B > C)
         {
-            Console.WriteLine(B);
+            Console.WriteLine($"Максимальное число: {B}");
         }
         else
         {
-            Console.WriteLine("Максимальное число = " ,C );
+            Console.WriteLine($"Максимальное число: {C}");
         }
     }
