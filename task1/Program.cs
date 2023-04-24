@@ -19,6 +19,6 @@ else
         }
         else
         {
-            Console.WriteLine(C);
+            Console.WriteLine("Максимальное число = " ,C );
         }
     }
